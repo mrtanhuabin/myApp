@@ -1,0 +1,10 @@
+{
+	"method": "addproject",
+	"params": [
+		{
+			"name": "aaa",
+			"imgUrl": "bbbbb",
+			"info": "cccccc"
+		}
+	]
+}

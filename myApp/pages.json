@@ -2,7 +2,32 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "uni-app"
+			"navigationBarTitleText": "首页"
+		}
+	},{
+		"path": "pages/projectShow/index",
+		"style": {
+			"navigationBarTitleText": "项目列表"
+		}
+	},{
+		"path": "pages/projectDetail/index",
+		"style": {
+			"navigationBarTitleText": "项目详情"
+		}
+	},{
+		"path": "pages/demoShow/index",
+		"style": {
+			"navigationBarTitleText": "demo展示"
+		}
+	},{
+		"path": "pages/manage/index",
+		"style": {
+			"navigationBarTitleText": "项目管理"
+		}
+	},{
+		"path": "pages/manage/entry",
+		"style": {
+			"navigationBarTitleText": "录入"
 		}
 	}],
 	"globalStyle": {
@@ -13,5 +38,31 @@
 		"app-plus": {
 			"background": "#efeff4"
 		}
+	},
+	"tabBar": {
+		"custom": false, 
+		"color": "#000",
+		"selectedColor": "red",
+		"iconWidth": "30rpx",
+		"spacing": "5px",
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/projectShow/index",
+				"text": "项目介绍",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			},{
+				"pagePath": "pages/demoShow/index",
+				"text": "demo展示",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			},{
+				"pagePath": "pages/manage/index",
+				"text": "项目管理",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png"
+			}
+		]
 	}
 }
